@@ -14,11 +14,11 @@ does not currently work with Thunderbird 68.
 | --- | -------- |
 |  c  | Compose new message  |
 |  r  | Reply |
-|  a  | Reply all |
+|  R  | Reply all |
 |  f  | Forward |
-|  #  | Delete |
+|  d  | Delete |
 |  u  | Refresh mail. If a message tab is open, close it. |
 |  j  | Next message |
 |  k  | Previous message |
 |  o  | Open message |
-|  x  | Archive message |
+|  a  | Archive message |
