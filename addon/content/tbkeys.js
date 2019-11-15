@@ -108,10 +108,10 @@ var TBKeys = {
         this.bindKey(window, "k", "window.goDoCommand('cmd_previousMsg')")
         this.bindKey(window, "o", "window.goDoCommand('cmd_openMessage')")
         this.bindKey(window, "f", "window.goDoCommand('cmd_forward')")
-        this.bindKey(window, "#", "window.goDoCommand('cmd_delete')")
+        this.bindKey(window, "d", "window.goDoCommand('cmd_delete')")
         this.bindKey(window, "r", "window.goDoCommand('cmd_reply')")
-        this.bindKey(window, "a", "window.goDoCommand('cmd_replyall')")
-        this.bindKey(window, "x", "window.goDoCommand('cmd_archive')")
+        this.bindKey(window, "R", "window.goDoCommand('cmd_replyall')")
+        this.bindKey(window, "a", "window.goDoCommand('cmd_archive')")
         this.bindKey(window, "c", "window.MsgNewMessage()")
         this.bindKey(window, "u", `
             if (((window.document.activeElement.id == 'messagepane') || (window.document.activeElement == 'threadTree' )) && (window.document.getElementById('tabmail').tabContainer.selectedIndex!=0)){
